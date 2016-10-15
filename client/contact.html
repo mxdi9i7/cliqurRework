@@ -1,0 +1,97 @@
+<template name="contact">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<style>
+label {
+	color: white;
+	font-weight: normal;
+}
+</style>
+<div class="row">
+		<div class="col-md-10">
+		</div>
+		<div class="col-md-2">
+			<button style="opacity:0;" class = "contact_home_button  hvr-bounce-to-right-gohome" id = "home_btn">Home</button>
+		</div>
+</div>
+
+<header class="index_navbar">
+    <ul>
+      <li><a href="/">Home</a><span></span></li>
+      <li><a href="/about">About</a><span></span></li>
+      <li id="currentPage"><a href="/contact">Contact</a><span></span></li>
+    </ul>
+  </header>
+<div class="container contact-container">
+       <div class="row">
+          <div class="container-fluid">
+			   
+			  <center>
+          			<h2 class = "contact_title">SAY HELLO</h2>
+				  <hr class = "contact_line">
+				  <hr class = "contact_line">
+				 
+					<p class = "contact_intro"> Whether you have a question, want to partner with us or are stopping to say hi, get in touch! </p>
+				  	
+ <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-8 col-lg-offset-2">
+                    <form id="contact-form" method="post" name="contactForm" role="form">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-12 index_optsbox">
+                                    <input id="fullNameinpt" placeholder="Please enter your full name and/or company *" type="text" style="width:100%;margin-left:0px" class="form-control" required="required">
+                                </div>
+                                <div class="col-md-6 index_optsbox">
+                                    <input id="emailinpt" type="text" class="form-control" placeholder="Please enter your email *" style="width:100%;margin-left:0px" required="required">
+                                </div>
+                                <div class="col-md-6 index_optsbox">
+                                    <input id="phNoInpt" type="text" style="width:100%;margin-left:0px" class="form-control" placeholder="Please enter your phone">
+                                </div>
+                                <div class="col-md-12 index_optsbox">
+                                    <textarea id="msgarea" class="form-control" style="width:100%;margin-left:0px;font-family: Roboto;" placeholder="Message for us *" rows="4" required="required"></textarea>
+                                </div>
+                                <div class="col-md-12 index_optsbox">
+                                <br>
+                                    <input type="submit" style="border-radius:4px;" class="contact_send_btn" value="Send message">
+                                </div>
+                                <div class="col-md-12">
+                                    <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div><!-- /.8 -->
+
+            </div> <!-- /.row-->
+        </div> <!-- /.container-->
+				  </center>
+			 
+            </div>
+		  <br>
+		   <br>
+       
+       
+      </div>
+</div>
+	
+				<!--I'll fix footer later-->
+ 					<!--<div class="about_footer">
+						<center>
+							<p class="index_footer_link"><a href="/about">About</a></p>
+							<p class="index_footer_link"><a href="/contact">Contact</a></p>
+							<p class="index_footer_link">&copy; 2016 Cliqur</p>
+						</center>
+					</div>-->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+
+</template>
+

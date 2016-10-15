@@ -1,0 +1,201 @@
+.main_logo_img {
+		margin-top: 2%;
+		height: 25%;
+		width: 35%;
+	}
+	.index_headline_text {
+		text-align: center;
+		margin: 10px;
+		padding-top: 0px; 
+		font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 700;
+		letter-spacing: 2px;
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	.index_input_container {
+		margin-top: 30px;
+	}
+	.index_id_input {
+		margin: 12px;
+		padding: 15px;
+		border: 2px solid 00A896;
+		margin-left: auto;
+		margin-right: auto;
+		width: 320px;
+		height: 50px;
+	}
+	.index_error_msg {
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		color: red;
+		font-weight: 700;
+		letter-spacing: 2px;
+	}
+	.index_join_btn {
+			color: #b31d30;
+			background-color: #fff;
+			font-size: 14px;
+			padding: 15px;
+			font-weight: 200;
+			border: 2px solid #b31d30;
+			width: 150px;
+			margin: 10px;
+			float: right;
+	}
+	.index_spectate_btn {
+			color: #FA7921;
+			background-color: #fff;
+			font-size: 14px;
+			padding: 15px;
+			font-weight: 200;
+			border: 2px solid #FA7921;
+			width: 150px;
+			margin: 10px;
+			float: left;
+	}
+	.index_create_btn {
+			color: #05668D;
+			background-color: #fff;
+			font-size: 14px;
+			margin: 12px;
+			padding: 15px;
+			border: 2px solid #05668D;
+			margin-left: auto;
+			margin-right: auto;
+			width: 320px;
+			height: 50px;
+			display: block;
+
+	}
+	.index_close_btn {
+		color: #b31d30;
+			background-color: #fff;
+			font-size: 14px;
+			margin: 12px;
+			padding: 15px;
+			border: 2px solid #b31d30;
+			margin-left: auto;
+			margin-right: auto;
+			width: 40%;
+			height: 50px;
+	}
+	.index_continue_btn {
+		color: #02C39A;
+			background-color: #fff;
+			font-size: 14px;
+			margin: 12px;
+			padding: 15px;
+			border: 2px solid #02C39A;
+			margin-left: auto;
+			margin-right: auto;
+			width: 40%;
+			height: 50px;
+	}
+	.index_footer {
+		margin-top: 2%;
+	}
+	.index_footer_link {
+		display: inline-block;
+		color: #757575;
+		font-size: 12px;
+		padding-left: 20px;
+	}
+.index_footer{
+	margin-bottom: 48px;
+}
+.index_create_btn{
+	line-height: -3px;
+}
+.index_join_btn, .index_spectate_btn, .index_create_btn{
+	display: block;
+	text-align: center;
+	background-color: #FCFCFC;
+	color: #6E7173;
+	border-radius: 2px;
+	border: 1px solid #DADFE3;
+	font-size: 12px;
+	outline: none;
+    -webkit-transition: all .24s;
+       -moz-transition: all .24s;
+        -ms-transition: all .24s;
+         -o-transition: all .24s;
+            transition: all .24s;
+	/*font-size: 13px;
+	opacity: 0.9;
+	border-radius: 3px;
+	border-width: 1px;
+	-webkit-transition: opacity .3s, background .3s;
+	   -moz-transition: opacity .3s, background .3s;
+	    -ms-transition: opacity .3s, background .3s;
+	     -o-transition: opacity .3s, background .3s;
+	        transition: opacity .3s, background .3s;*/
+}
+.index_join_btn:hover, .index_spectate_btn:hover, .index_create_btn:hover{
+	/*opacity: 1;
+	background-color: rgba(235, 239, 240, 0.1);*/
+	border: 1px solid #FCFCFC;
+	box-shadow: 0px 2px 5px -3px #111;
+	color: #3B3E40;
+}
+/*.index_create_btn{
+	background-color: rgba(211, 223, 227, 0.18);
+}
+.index_spectate_btn{
+	color: #B84E1A;
+	border-color: #B84E1A;
+	background-color: rgba(235, 222, 213, 0.18);
+}
+.index_join_btn{
+	color: #738C2E;
+	border-color: #738C2E;
+	background-color: rgba(242, 246, 247, 0.48);
+}
+*/
+.main_logo_img{
+	margin-top: 48px;
+}
+
+
+.index_error_msg{
+	text-align: center;
+}
+.index_error_msg, #errorMSG-joinForm, #errorMSG-createSession{
+	font-size: 12px;
+	margin-bottom: 12px;
+	-webkit-transition: opacity .2s;
+	   -moz-transition: opacity .2s;
+	    -ms-transition: opacity .2s;
+	     -o-transition: opacity .2s;
+	        transition: opacity .2s;
+}
+#pinForm{
+	top: 40%!important;
+}
+
+
+
+
+.pw_submit_btn_indx{
+	width: 54px;
+	line-height: 12px;
+	height: 48px;
+	font-size: 18px;
+	margin-top: 12px;
+}
+#pinTitle{
+	font-size: 18px;
+	margin-bottom: 18px;
+	display: block;
+	font-weight: normal;
+}
+#or .bar {
+	margin-top: 15px;
+}
+#or .index-modal-range {
+	margin-top: 15px;
+}
+#or .index-geo-label {
+	margin-bottom: 30px;
+}

@@ -1,0 +1,119 @@
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Cliqur</title>
+	  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+
+
+<template name="businessPage">
+    <section class="">
+      <center>
+        <img class="main_logo_img img-responsive" src="/logoCliqurcopy.png">
+      </center>
+      <div class="row index_input_container">
+        <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+          <p class="index_headline_text">Business Conferencing Done Right</p>
+        </div>
+        <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12">
+          <div id="errorMSG-ONE" class="main_errormsg_text"></div>
+        </div>
+        <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12">
+          <input class="form-control index_id_input hvr-underline-from-left" type="text" placeholder="Enter an Event ID" id="codeInput">
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6 global_no_padding_right">
+            <button class="index_join_btn hvr-grow" data-toggle="modal" data-target="#joinSession" id="joinEventBtn">Join Event</button>
+        </div>
+        <div class="col-md-6 col-sm-6 col-xs-6 col-lg-6 global_no_padding_left">
+          <button class="index_spectate_btn hvr-grow" id="joinPublicEvent">Spectate Event</button>
+        </div>
+        <div class="col-md-12 col-xs-12 col-lg-12 col-sm-12">
+            <button class="index_create_btn hvr-bob" data-toggle="modal" data-target="#createSession" id="createEventBtn">Hosting an Event? Create an Event ID</button>        
+        </div>
+      </div>
+    </section>  
+
+
+<div class="modal fade join-panel" id="joinSession" tabindex="-1" role="dialog" aria-labelledby="joinSession">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">Join an Event: {{toJoinSession}}</h4>
+      </div>
+      <div class="modal-body">
+        <form id="toJoinForm">
+        <div id="errorMSG-joinForm" style="font-size: 18px;color:red"></div>
+          <div class="form-group">
+            <label for="firstNameInput" class="control-label">First Name</label>
+            <input type="text" style="font-size: 24px;" class="form-control" id="firstNameInput">
+          </div>
+          <div class="form-group">
+            <label for="lastNameInput" class="control-label">Last Name</label>
+            <input type="text" style="font-size: 24px;" class="form-control" id="lastNameInput">
+          </div>
+          <div class="form-group">
+            <label for="verificationCode" class="control-label">Verification Code</label>
+            <input type="text" style="font-size: 24px;" class="form-control" id="verificationCode">
+            <small>Provided by your host</small>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="index_close_btn hvr-bounce-to-right-close student-close" data-dismiss="modal">Close</button>
+        <button type="submit" class="index_continue_btn hvr-bounce-to-right-continue" onclick='$("#toJoinForm").trigger("submit")'>Continue</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="createSession" tabindex="-1" role="dialog" aria-labelledby="createSession">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">Create an Event</h4>
+      </div>
+      <div class="modal-body">
+        <form id="createSessionFormBus">
+            <div id="errorMSG-createSession" style="font-size: 18px;color:red"></div>
+          <div class="form-group">
+            <label for="companyName" class="control-label">Company Name</label>
+            <input type="text" style="font-size: 24px;" class="form-control" id="companyName">
+          </div>
+          <div class="form-group">
+            <label for="typeOfEvent" class="control-label">Type of Event</label>
+              <select class="form-control" id="typeOfEvent">
+                <option value="Conference">Conference</option>
+                <option value="Orientation">Orientation</option>
+                <option value="Speaking">Speaking</option>
+              </select>
+          </div>
+          <div class="form-group">
+            <label for="attendees" class="control-label">Attendees</label>
+            <input type="text" style="font-size: 24px;" class="form-control" id="attendees">
+            <small>Please provide us with the expected amount of registered attendees.</small>
+          </div>
+          <div class="form-group">
+            <label for="inputPassword" class="control-label">Passcode (Optional)</label>
+            <br />
+              <input style="float:left;font-size: 24px;" type="password" class="form-control inputPasswordTs" maxlength="1">
+              <input style="float:left;font-size: 24px;" type="password" class="form-control inputPasswordTs" maxlength="1">
+              <input style="float:left;font-size: 24px;" type="password" class="form-control inputPasswordTs" maxlength="1">
+              <input style="float:left;font-size: 24px;" type="password" class="form-control inputPasswordTs" maxlength="1">
+              <br />
+          </div>
+          <br>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn-modal index_close_btn hvr-bounce-to-right-close" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn-modal index_continue_btn hvr-bounce-to-right-continue" onclick='$("#createSessionFormBus").trigger("submit")'>Continue</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</template>

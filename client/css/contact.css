@@ -1,0 +1,128 @@
+* {
+	font-family: Roboto;
+}
+.contact_send_btn{
+	line-height: -3px;
+	height: 50px;
+	width: 150px;
+}
+.contact_send_btn {
+	display: block;
+	text-align: center;
+	background-color: #FCFCFC;
+	color: #6E7173;
+	border-radius: 2px;
+	border: 1px solid #DADFE3;
+	font-size: 12px;
+	outline: none;
+    -webkit-transition: all .24s;
+       -moz-transition: all .24s;
+        -ms-transition: all .24s;
+         -o-transition: all .24s;
+            transition: all .24s;
+	/*font-size: 13px;
+	opacity: 0.9;
+	border-radius: 3px;
+	border-width: 1px;
+	-webkit-transition: opacity .3s, background .3s;
+	   -moz-transition: opacity .3s, background .3s;
+	    -ms-transition: opacity .3s, background .3s;
+	     -o-transition: opacity .3s, background .3s;
+	        transition: opacity .3s, background .3s;*/
+}
+.contact_send_btn:hover{
+	/*opacity: 1;
+	background-color: rgba(235, 239, 240, 0.1);*/
+	border: 1px solid #FCFCFC;
+	box-shadow: 0px 2px 5px -3px #111;
+	color: #3B3E40;
+}
+
+.contact_home_button {
+			color: #05668D;
+			background-color: #fff;
+			font-size: 13px;
+			padding: 15px;
+			font-weight: 200;
+			border: 2px solid #05668D;
+			width: 150px;
+			margin: 10px;
+			float: right;
+}
+.contact_title {
+	margin-top: 4%;
+	color: #1D2934;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+}
+.contact_line{
+	height: 3px;
+	width: 50%;
+}
+.contact_line:nth-child(3){
+	margin-left: 20%;
+	background-color: #5DD39E;
+}
+.contact_line:nth-child(2){
+	margin-top: -1%;
+	margin-left: 30%;
+	background-color: #513B56;
+}
+.contact_intro{
+	margin-top: 3%;
+	font-size: 17px;
+}
+.contact_center {
+	margin-top: 3%;
+	margin-left: 13%;
+}
+.contact_form {
+	margin-top: 2%;
+	border: 2px solid 6A9E3A;
+	background: #513B56;
+	height: 295px;
+	margin-left: 17%;
+	border-radius: 2px;
+}
+.contact_input_container {
+	margin-top: 3%;
+}
+.contact_input_container:nth-child(2) {
+	
+	margin-top: -1.7%;
+}
+.contact_input {
+	margin-top: 3%;
+	padding: 2%;
+	margin-left: -44%;
+	letter-spacing: normal;
+	height: 35px;
+	width: 40%;
+}
+.contact_ta {
+	padding: 2%;
+	padding-top: 5px;
+	margin-left: 49%;
+	margin-top: -19.2% !important;
+	height: 147px;
+	width: 45%;
+	position: relative;
+	resize: none;
+}
+.contact_send_button {
+	border: 1.8px solid white;
+	height: 45px;
+	width: 40%;
+	color: white;
+	margin-top: 3%;
+}
+.contact_sm_container {
+	margin-top: 32%;
+}
+.fa-facebook-square {
+	border: 2px solid red;
+	font-size: 40px;
+	height: 30%;
+	color: black;
+}

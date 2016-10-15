@@ -1,0 +1,277 @@
+/* Global view goes here, everything that does not effect margin on each device, such as color scheme, background color, and fonts */
+	body {
+		overflow-x: hidden;
+		font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		background-color: #fff;
+	    width: 100%;
+	    height: 100%;
+	}
+	.main_logo_img {
+		margin-top: 2%;
+		height: 25%;
+		width: 35%;
+	}
+	.publicview_panel {
+ 	 	position: relative;
+  		background: #fff;
+  		width: 98%;
+  		margin: 40px auto;
+  		text-align: center;
+  		border-radius: 4px;
+  		box-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+	}
+	.publicview_panel_title {
+		background-color: #2875B8;
+		padding:10px;
+		color:white;
+	}
+	.index_headline_text {
+		text-align: center;
+		margin: 10px;
+		padding-top: 0px; 
+		font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 700;
+		letter-spacing: 2px;
+		font-size: 18px;
+		margin-bottom: 20px;
+		line-height: 30px;
+	}
+	.index_input_container {
+		margin-top: 30px;
+	}
+	.index_id_input {
+		margin: 12px;
+		padding: 15px;
+		border: 2px solid 00A896;
+		margin-left: auto;
+		margin-right: auto;
+		width: 320px;
+		height: 50px;
+	}
+	.index_error_msg {
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		color: red;
+		font-weight: 700;
+		letter-spacing: 2px;
+	}
+	.index_join_btn {
+			color: #b31d30;
+			background-color: #fff;
+			font-size: 14px;
+			padding: 15px;
+			font-weight: 200;
+			border: 2px solid #b31d30;
+			width: 150px;
+			margin: 10px;
+			float: right;
+	}
+	.index_spectate_btn {
+			color: #FA7921;
+			background-color: #fff;
+			font-size: 14px;
+			padding: 15px;
+			font-weight: 200;
+			border: 2px solid #FA7921;
+			width: 150px;
+			margin: 10px;
+			float: left;
+	}
+	.index_create_btn {
+			color: #05668D;
+			background-color: #fff;
+			font-size: 14px;
+			margin: 12px;
+			padding: 15px;
+			border: 2px solid #05668D;
+			margin-left: auto;
+			margin-right: auto;
+			width: 320px;
+			height: 50px;
+			display: block;
+
+	}
+	.index_close_btn {
+		color: #b31d30;
+			background-color: #fff;
+			font-size: 14px;
+			margin: 12px;
+			padding: 15px;
+			border: 2px solid #b31d30;
+			margin-left: auto;
+			margin-right: auto;
+			width: 40%;
+			height: 50px;
+	}
+	.index_continue_btn {
+		color: #02C39A;
+			background-color: #fff;
+			font-size: 14px;
+			margin: 12px;
+			padding: 15px;
+			border: 2px solid #02C39A;
+			margin-left: auto;
+			margin-right: auto;
+			width: 40%;
+			height: 50px;
+	}
+	.index_footer {
+		margin-top: 2%;
+	}
+	.index_footer_link {
+		display: inline-block;
+		color: #757575;
+		font-size: 12px;
+		padding-left: 20px;
+	}
+
+	/*THESE ARE ON ALL THE PAGES, DONT TOUCH */
+	.navbar-brand {
+		color: #263238;
+		font-family: Roboto;
+	}
+	.navbar-brand:hover {
+		color: #263238
+	}
+	.exit {
+		font-family: Roboto;
+		font-size: 13px;
+		cursor: pointer;
+		color: #E53935;
+		border: 1px solid #E53935;
+		border-radius: 2px;
+		background-color: white;
+		height: 40px !important;
+		width: 100px !important;
+	}
+
+	.login-name {
+		font-family: Roboto;
+		width: 30%;
+		margin-top: 1%;
+		text-align: right;
+		padding-right: 0.7%;
+	}
+	.cred {
+		font-family: Roboto;
+		font-size: 15px; 
+		color: #263238;
+	}
+	.smallcred {
+		font-size: 13px;
+		color: black;
+		padding-left: 1.6%;
+	}
+	
+
+	.global_no_padding_right {
+		padding-right: 0;
+	}
+	.global_no_padding_left {
+		padding-left: 0;
+	}
+	.table th {
+		padding: 15px 100px 15px 100px;
+		text-align: center;
+	}
+
+
+
+
+	
+/*panel styles, not ready yet */
+
+
+
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+	    .create_sidemenu_nav {padding-top: 15px;}
+	    .create_sidemenu_nav a {font-size: 18px;}
+	}
+
+/* For screen size 1440px - 2560 px, for 2K/4K displays and up*/
+
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+
+	
+
+}
+/* For screen size 1024 - 1440 px, for 15-17 inch laptop/desktops */
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+	
+	.login-name {
+		margin-top: 1%;
+	}
+	.left {
+		position: relative;
+		left: 1%;
+	}
+	.student-view-jumbotron {
+		margin-top: 1.5%;
+	}
+	.student-mc-container {
+		margin-top: 0%;
+	}
+	.student-response-button {
+		margin-top: 1.5%;
+	}
+	.student-mc-text {
+		margin-top: -1.7%;
+	}
+	.student-mc-title {
+		margin-top: -1%
+	}
+
+	
+
+
+	}
+/* For screen size 768 - 1024 px, for smaller laptops */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+/* For screen size 425 - 768 px, for tablets */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+
+	
+}
+/* For screen size 425 or lower px, for smaller phoens, iPhone5 is 320px, iPhone6 is 375px and iPhone6 Plus is 414px */   
+
+@media screen and (max-width: 425px) {
+	.navbar-brand {
+		margin-top: 0%;
+		margin-left: 0% !important;
+	}
+	
+	.login-name {
+		margin-top: 1%;
+	}
+	.left {
+		position: relative;
+		left: 1%;
+	}
+	.student-view-jumbotron {
+		margin-top: 1.5%;
+	}
+	
+
+}
+
+
+
+
+
+/* For screen size 1440px - 2560 px, for 2K/4K displays and up*/
+
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+
+	
+
+	
+
+}
